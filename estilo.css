@@ -1,15 +1,22 @@
-#container{
+#container{ /*id: so pode ser usada na mesma pagina*/ 
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
     padding: 5%;
     background-color: silver;
 }
-.caixa{
+.caixa{ /*Class: pode ser usado varias vezes.*/
     width: 300px;
     background-color: black;
     color: whitesmoke;
     padding: 15%;
     border-radius: 10px;
     text-align: center;
+
+}
+img{ /*Tag: controle da tag em htlm*/
+    max-width: 55%;
+    max-height: 55%;
+    width: auto;
+    height: auto;
 }
